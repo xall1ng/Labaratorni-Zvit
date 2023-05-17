@@ -43,11 +43,11 @@ int main() {
     
     bool b = false;
     for (int i = 0; i < a.length() - 5; i++) {
-        int count = 1;
+        int c = 1;
         for (int j = i + 1; j < a.length(); j++) {
             if (a[i] == a[j]) {
-                count++;
-                if (count > 5) {
+                c++;
+                if (c > 5) {
                     b = true;
                     break;
                 }
@@ -65,7 +65,6 @@ int main() {
     
     return 0;
 }
-
 ```
 # Є символ який повторюється більше 5 разів:
 ```console
